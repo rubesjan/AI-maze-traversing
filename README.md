@@ -6,11 +6,11 @@ Maze must be in a txt file. Walls should be 'X' and paht must a whitespace (' ')
 
 IMPLEMENTATION DOES NOT CHECK FOR INVALID MAZES, but mazes without any path are valid.
 
-usage:
+usage:<br>
 ./a.out filename.txt {BFS, DFS, Random, Greedy, A*}
 
-compile:
+compile:<br>
 g++ main.cpp
 
-example usage:
+example usage:<br>
 ./a.out ./example/72.txt BFS
