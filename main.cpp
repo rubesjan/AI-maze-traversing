@@ -518,7 +518,7 @@ int main(int argc, char *argv[])
 {
     if (argc < 3)
     {
-        cerr << "Usage: ./test/72.txt {BFS, DFS, Random, Greedy, A*}" << endl;
+        cerr << "Usage: ./example/72.txt {BFS, DFS, Random, Greedy, A*}" << endl;
         return 1;
     }
 
