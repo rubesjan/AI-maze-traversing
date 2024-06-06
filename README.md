@@ -1,10 +1,10 @@
-# Maze traversing using BFS, DFS, Random search, Greedy search, A* algorithms
+# Maze traversing using BFS, DFS, Random search, Greedy search and A*
 
-Implementation of BFS, DFS, Random search, Greedy search and A* algorithms for finding path in a maze. Algorithms are same, only uses different container for storing opened nodes. Algorithms differs only in the order of expanding new nodes.
+Implementation of BFS, DFS, Random search, Greedy search and A* algorithms for finding path in a maze. Algorithms differ only in the order of expanding new nodes - they only uses different containers for storing opened nodes.
 
-Maze must be in a txt file. Walls should be 'X' and paht must a whitespace (' '). Maze must be bounded by walls!
+Maze must be in a .txt file. Walls should be 'X' and paht must be a whitespace (' '). Maze must be bounded by walls!
 
-IMPLEMENTATION DOES NOT CHECK FOR INVALID MAZES, but mazes without any path are valid.
+IMPLEMENTATION DOES NOT CHECK FOR INVALID MAZE, but maze without any path is valid.
 
 usage:<br>
 ./a.out filename.txt {BFS, DFS, Random, Greedy, A*}
